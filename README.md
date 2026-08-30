@@ -21,7 +21,7 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
 <H3>Program:</H3>
-
+```
 import speech_recognition as sr
 
 r = sr.Recognizer()
@@ -47,7 +47,7 @@ except sr.RequestError as e:
     print(f"Error with the request to Google Speech Recognition service: {e}")
 except Exception as e:
     print(f"Error: {e}")
-
+```
 <H3> Output:</H3>
 <img width="312" height="74" alt="image" src="https://github.com/user-attachments/assets/15c4fd22-c833-4c2a-96ca-a89f23b09a1b" />
 
