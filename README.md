@@ -9,7 +9,7 @@
  To implement the conversion of live speech to text.
  
 ## Algorithm:
-
+```
 Step 1: Import the speech_recognition library
 Step 2: Initialize the Recognizer
 Step 3: Create an instance of the Recognizer class, which will be used for recognizing speech.
@@ -24,7 +24,7 @@ Step 11: Perform speech recognition with exceptional handling:
 •	If successful, print the recognized text.
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.
 •	A generic exception block captures any other unexpected errors.
-
+```
 ## Program:
 
 ```
